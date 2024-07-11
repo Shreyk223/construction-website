@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+</title>
+<script>
+function validateFormFields(thisform)
+{
+var username = thisform.uname.value;
+var password= this.password.value;
+
+if (username== null || username== "")
+{
+
+}
+
+if (password== null || password== "")
+{
+
+}
+}
+
+</script>
+</head>
+
+
+<body>
+<form onsubmit="validateFormFields(this)">
+
+Username:<input type="text" name="uname">
+Password:<input type="Password" name="pw">
+<input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
